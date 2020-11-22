@@ -1,0 +1,1 @@
+Przy statycznym dokładność bedzie wieksza dokladnosc, ale przy zmiennym momencie będzie gubić kroki i tracić dokładność

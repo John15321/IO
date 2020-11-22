@@ -1,0 +1,3 @@
+Przesymulowaæ modu³ 0-10V, obliczyæ wartoœci rezystancji, mocy, pr¹dów, itp. oraz wygenerowaæ wykresy Uwy(Iwy), Uwy(Robc)
+
+Przesymulowaæ uk³ad kluczy NPN i PNP w ró¿nych konfiguracjach, obliczyæ wartoœci rezystancji, pr¹dów, napiêæ dla 3 konfiguracji dla ka¿dego tranzystora.
