@@ -1,1 +1,1 @@
-Opisac schemat, policzyæ, wyznaczyæ parametry i przesymulowaæ uk³ad 4..20mA dla wybranych 3 wartoœci Rpom i dla nich okreœliæ : max wartoœæ Robc dla I=4:20mA, wykonaæ wykres Uster(Uce), Uce(Robc), Robc(Pdiss) dla wybranych Robc oraz Iz (x3)
+Opisac schemat, policzyÄ‡, wyznaczyÄ‡ parametry i przesymulowaÄ‡ ukÅ‚ad 4..20mA dla wybranych 3 wartoÅ›ci Rpom i dla nich okreÅ›liÄ‡ : max wartoÅ›Ä‡ Robc dla I=4:20mA, wykonaÃ¦ wykres Uster(Uce), Uce(Robc), Robc(Pdiss) dla wybranych Robc oraz Iz (x3)
