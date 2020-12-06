@@ -1,0 +1,30 @@
+* E:\Uczelnia\Semestr5\IO\Lab4\pierwszy.asc
+V1 N001 0 24
+V2 0 N005 24
+V3 N011 0 24
+V4 N002 0 24
+R1 N001 N003 2380
+R2 N010 0 4
+R3 N008 N007 100
+R_obc N002 N004 {R_ob}
+XU1 N009 N006 N005 N011 N007 level.2 TL061 Avol=1Meg GBW=10Meg Slew=10Meg ilimit=25m rail=0 Vos=0 phimargin=45 en=0 enk=0 in=0 ink=0 Rin=500Meg
+XX1 N003 N010 N009 potentiometer params: R=10k,Val=50
+R_pom N006 0 10
+Q1 N004 N008 N006 0 NPN
+
+* block symbol definitions
+.subckt potentiometer 1 2 Out
+R1 1 Out {R1}
+R2 Out 2 {R2}
+.param R1=R*(Val/100)
+.param R2=R*(1-(Val/100))
+.ends potentiometer
+
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\johnb\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.op
+.step param R_ob 1 1981 1
+.lib UniversalOpamps2.sub
+.backanno
+.end
