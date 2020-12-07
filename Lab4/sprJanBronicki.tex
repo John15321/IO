@@ -76,7 +76,7 @@ $$
 
 $$
     R_{pot} = \frac{U_{20mA} - U_{4mA}}{I_{sterowania}} = 
-    \frac{0.20V-0.04V}{4mA} 40\Omega
+    \frac{0.20V-0.04V}{4mA} = 40\Omega
 $$
 
 
@@ -84,7 +84,13 @@ $$
     R_{2} = \frac{U_{4mA}}{I_{sterowania}} = \frac{0.04V}{10mA} = 10 \Omega
 $$
 
-Schemat:\\
+Schemat:
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.5]{schemat_R_POM_100.jpg}
+\end{figure}
+\newpage
 Wykresy:
 
 \begin{itemize}
@@ -142,6 +148,7 @@ Wykresy:
 \end{itemize}
 
 
+\newpage
 \subsubsection{$R_{pom} = 200 \Omega$}
 
 Wartość, dla $R_{3} = 100 \Omega$
@@ -178,14 +185,30 @@ $$
 
 Schemat:
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.5]{schemat_R_POM_200.jpg}
+\end{figure}
+
+
+\newpage
 Wykresy:
 
 
-\begin{itemize}
-    \item $U_{ster}(U_{CE})$
-    \item $U_{CE}(R_{obc}), gdzie Val = 50, \ \ R_{max} = 1791 \Omega$
-    \item $R_{obc}(P_{diss}), gdzie Val = 50, \ \ R_{max} =1791 \Omega$
-\end{itemize}
+
+$$U_{ster}(U_{CE})$$
+    \begin{figure}[h!]
+        \includegraphics[scale=0.3]{R_POM_200_U_ster_od_U_CE.jpg}
+    \end{figure}
+$$U_{CE}(R_{obc}), gdzie Val = 50, \ \ R_{max} = 1791 \Omega$$
+\begin{figure}[h!]
+    \includegraphics[scale=0.3]{R_POM_200_U_CE_od_R_obc.jpg}
+\end{figure}
+$$R_{obc}(P_{diss}), gdzie Val = 50, \ \ R_{max} =1791 \Omega$$
+\begin{figure}[h!]
+    \includegraphics[scale=0.3]{R_POM_200_R_obc_od_P_diss.jpg}
+\end{figure}
+
 
 
 
