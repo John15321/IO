@@ -1,0 +1,32 @@
+* E:\Uczelnia\Semestr5\IO\Lab4\przykladNPN.asc
+R1 N001 N003 5000
+R2 N011 0 200
+R3 N008 N007 100
+Q1 N004 N008 N006 0 NPN
+Rpom N006 0 200
+Robc N002 N004 {obc_param}
+V1 N001 0 24
+Xx1 N003 N011 N009 potentiometer params: R=800,Val=50
+V2 N002 0 24
+V3 N005 0 24
+V4 0 N010 24
+XU2 N009 N006 N005 N010 N007 level.2 Avol=1Meg GBW=10Meg Slew=10Meg ilimit=25m rail=0 Vos=0 phimargin=45 en=0 enk=0 in=0 ink=0 Rin=500Meg
+
+* block symbol definitions
+.subckt potentiometer 1 2 Out
+R1 1 Out {R1}
+R2 Out 2 {R2}
+.param R1=R*(Val/100)
+.param R2=R*(1-(Val/100))
+.ends potentiometer
+
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\johnb\Documents\LTspiceXVII\lib\cmp\standard.bjt
+* Rpot
+.op
+.step param obc_param 1 1791 1
+* Val
+.lib UniversalOpamps2.sub
+.backanno
+.end
