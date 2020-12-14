@@ -2,21 +2,21 @@ Sprawdziæ zasadê dzia³ania (+ opisaæ budowê z wzorami) stabilizatrów: na dzielni
 
 na dzielniku napiêcia
 Uwy(Robc),  
-Uwy (Iobc), 
+Uwy(Iobc), 
 
 z diod¹ Zenera 
 Uwy(Robc),  
-Uwy (Iobc),
-Uwy (Pdiss) na diodzie
-Pdiss (Robc) 
+Uwy(Iobc),
+Uwy(Pdiss) na diodzie
+Pdiss(Robc) 
 
 na tranzystorze
 Uwy(Robc),  
-Uwy (Iobc),
-Uwy (Pdiss) na tranzystorze
+Uwy(Iobc),
+Uwy(Pdiss) na tranzystorze
 
 
 stabilizator napiêcia (78XX)
 Uwy(Robc),  
-Uwy (Iobc),
-Uwy (Pdiss) (na stabilizatorze)
+Uwy(Iobc),
+Uwy(Pdiss) (na stabilizatorze)
